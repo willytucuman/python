@@ -190,5 +190,67 @@
 #print(lista)     
 
 #15  Presentar por pantalla los N primeros números pares
+"""N = int(input("Ingrese la cantidad de numeros pares comprendidos que quiera mostrar(coloque un numero mayor a 1): "))
+i=1
+lista_pares=[]
+lista_impares=[]
+while i <= N:
+    if i%2==0:
+        lista_pares.append(i)
+        i+=1
+    elif i%2!=0:
+        lista_impares.append(i)
+        i+=1
+print(f"Los numeros pares son : {lista_pares} y los impares son {lista_impares}")"""
+
+#16  Dado un numero natural N, presentar en forma decreciente los N primeros números
+"""N = int(input("Ingrese un numero natural N cualquiera: "))
+n_anterior = N
+i=0
+lista_decreciente = []
+while 0<=n_anterior:
+    i = n_anterior
+    n_anterior-=1
+    lista_decreciente.append(i)
+    lista_decreciente.sort(reverse=True)
+print(lista_decreciente)
+"""
+#27. Dado un numero natural de 4 o mas dígitos, presentar por pantalla su invertido
+"""N = str(input("Dame un numero natural de 4 o mas digitos: "))
+numero_al_reves=[]
+n=0
+if N.__len__()>=4:
+    numero_al_reves.append(N)
+    n= N[::-1]
+    print(n)
+else:
+    print("Ingresa un numero de 4 digitos boludo")"""
+
+
+#19  Dado dos números enteros N1 y N2, encontrar la suma de los números comprendidos entre N1 y N2
+#caso N1<N2 o caso N1>N2
+#N1 = int(input("Ingrese el primer numero: "))
+#N2 = int(input("Ingrese el segundo numero: "))
+#N = N1+1
+#N_2=N2+1
+#i = 0
+#if N1 <N2:
+   # while N<N2:
+  #      i+=N
+ #       N+=1
+#elif N2<N1:
+   # while N_2<N1:
+  #      i+=N_2
+ #       N_2+=1
+#print(i)        
+
+#33. Dado un numero N, presentar por pantalla la cantidad de dígitos que posee el mismo.
+"""N = str(input("Dame un numero positivo cualquiera: "))
+print(N.__len__(),"es la cantidad de digitos del numero ingresado")   """ 
+
+
+
+
+
 
 
