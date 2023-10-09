@@ -30,7 +30,7 @@
     #print("No es primo")
 
 #suma de numeros primos comprendidos entre dos numeros 
-N1= int(input("Deme un primer numero entero positivo: "))
+"""N1= int(input("Deme un primer numero entero positivo: "))
 N2= int(input("Deme un segundo numero entero positivo: "))
 
 N = N1+1
@@ -47,4 +47,27 @@ while N<N2:
 if Sum==0:
     print("No hay numeros primos comprendidos")
 else:
-    print(f"La suma de estos es:{Sum}")
+    print(f"La suma de estos es:{Sum}")"""
+
+#metodos de set
+set1 = {"banana","manzana","pera"}
+set2 = {"melon","sandia","banana"}
+#agregar un elemento a cualquiera
+"""set1.add("uva")
+print(set1)"""
+#limpiando un set
+"""set1.clear()
+print(set1)"""
+#copiando un set en otro
+"""set3 = set1.copy()
+print(set3)"""
+#DIFERENCIAS
+"""set3 = set2.difference(set1)
+print(set3)"""
+#interseccion
+"""set3 = set1.intersection(set2)
+print(set3)"""
+#INDICAMOS SI UNO ES SUBSET DE OTRO
+"""set3 = set1.issubset(set2)
+print(set3)"""
+#
